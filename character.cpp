@@ -9,7 +9,10 @@ typedef vector<vector<int>> vvi;
 typedef pair<int,int> ii;
 
 void solve() {
-    
+    int n;
+    cin >> n;
+
+    cout << (1 << n) - n - 1 << '\n';
 }
 
 int main() {
